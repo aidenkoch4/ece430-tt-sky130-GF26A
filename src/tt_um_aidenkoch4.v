@@ -5,13 +5,16 @@
 
 `default_nettype none
 
-module project (
+module tt_um_aidenkoch4 (
     input  wire [7:0] ui_in,
     output wire [7:0] uo_out,
+    input  wire [7:0] uio_in,
+    output wire [7:0] uio_out,
+    output wire [7:0] uio_oe,
+    input  wire ena,
     input  wire clk,
     input  wire rst_n
 );
-
     wire [2:0] mode  = ui_in[7:5];
     wire [4:0] value = ui_in[4:0];
 
@@ -32,4 +35,7 @@ module project (
     assign uo_out[2] = pwm_b;
     assign uo_out[7:3] = 5'b0;
 
+
+    assign uio_out = 8'b0;
+    assign uio_oe = 8'b0;
 endmodule
