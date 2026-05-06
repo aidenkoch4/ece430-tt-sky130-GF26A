@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This section will be updated later
 
 ## How to test
 
-Explain how to use your project
+This section will also be developed at a later date.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+I will leave all the descirptions like this for now until the software is tested and I know it works, then I will move on to these softer developments.
